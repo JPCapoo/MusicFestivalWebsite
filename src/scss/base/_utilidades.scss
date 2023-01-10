@@ -1,0 +1,9 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+.bg-verde {
+    background-color: v.$verde;
+}
+
+.bg-amarillo {
+    background-color: v.$amarillo;
+}

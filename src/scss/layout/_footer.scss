@@ -1,0 +1,11 @@
+@use 'base/variables' as v;
+.footer {
+    background-color: v.$rosa;
+    padding: calc(v.$separacion / 4);
+    text-align: center;
+    p {
+        color: v.$blanco;
+        font-weight: v.$delgada;
+        margin: 0;
+    }
+}
